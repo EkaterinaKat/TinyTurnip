@@ -2,4 +2,32 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Pastel act tiles; text is dark in both themes because the tile stays light -->
+    <color name="act_tile_background">#FFDDF0DA</color>
+    <color name="act_tile_text">#FF1F2A1E</color>
+    <color name="act_tile_text_secondary">#FF4F5E4C</color>
+
+    <!-- Pastel palette for act buttons on Home, picked by the last digit of the act id (see ActColors) -->
+    <color name="act_pastel_0">#FFFFD6D6</color>
+    <color name="act_pastel_1">#FFFFE0C2</color>
+    <color name="act_pastel_2">#FFFFF3B8</color>
+    <color name="act_pastel_3">#FFDDF0DA</color>
+    <color name="act_pastel_4">#FFCDEFE6</color>
+    <color name="act_pastel_5">#FFD6E8FA</color>
+    <color name="act_pastel_6">#FFDCDDFA</color>
+    <color name="act_pastel_7">#FFEBDDF7</color>
+    <color name="act_pastel_8">#FFFAD9EC</color>
+    <color name="act_pastel_9">#FFE8E2D6</color>
+    <color name="act_pastel_ripple">#1F000000</color>
+
+    <!-- Pastel log tiles: orange for START, blue for FINISH; text is shared and dark -->
+    <color name="log_tile_start_background">#FFFFE0C2</color>
+    <color name="log_tile_finish_background">#FFD6E8FA</color>
+    <color name="log_tile_text">#FF22211F</color>
+    <color name="log_tile_text_secondary">#FF5A5752</color>
+
+    <!-- Stop button: muted dark red while an act is running, grey otherwise -->
+    <color name="stop_button_active">#FFA32B2B</color>
+    <color name="stop_button_idle">#FF9E9E9E</color>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- backgroundTint is overridden per act in HomeFragment via ActColors -->
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    android:insetTop="0dp"
+    android:insetBottom="0dp"
+    android:minHeight="56dp"
+    android:paddingHorizontal="20dp"
+    android:textAllCaps="false"
+    android:textAppearance="?attr/textAppearanceTitleMedium"
+    android:textColor="@color/act_tile_text"
+    app:backgroundTint="@color/act_pastel_3"
+    app:cornerRadius="16dp"
+    app:elevation="0dp"
+    app:rippleColor="@color/act_pastel_ripple"
+    tools:text="Item" />

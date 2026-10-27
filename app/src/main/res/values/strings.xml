@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">TinyTurnip</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_acts">Acts</string>
+    <string name="nav_logs">Logs</string>
+    <string name="home_state_placeholder">Уборка</string>
+    <string name="home_details_placeholder">28.09.2026\nsince 14:20 (156)</string>
+    <string name="home_stop">Stop</string>
+    <string name="home_details_since">%1$s\nsince %2$s (%3$d)</string>
+    <string name="acts_empty">No acts yet</string>
+    <string name="acts_add">Add act</string>
+    <string name="act_new_title">New act</string>
+    <string name="act_edit_title">Edit act</string>
+    <string name="act_name_hint">Name</string>
+    <string name="act_description_hint">Description (optional)</string>
+    <string name="act_name_required">Name is required</string>
+    <string name="act_save">Save</string>
+    <string name="act_edit">Edit</string>
+    <string name="act_delete">Delete</string>
+    <string name="act_delete_confirm">Delete \"%1$s\"?</string>
+    <string name="act_delete_has_logs">Can\'t delete: this act has logs</string>
+    <string name="logs_empty">No logs yet</string>
+    <string name="log_type_start">Start</string>
+    <string name="log_type_finish">Finish</string>
+    <string name="log_delete">Delete</string>
+    <string name="log_delete_impossible">Impossible: only the latest log can be deleted</string>
+    <string name="logs_add">Add log</string>
+    <string name="manual_log_title">New log</string>
+    <string name="manual_log_type">Type</string>
+    <string name="manual_log_act">Act</string>
+    <string name="manual_log_date_time">Date and time</string>
+    <string name="manual_log_save">Save</string>
+    <string name="manual_log_act_required">Select an act</string>
+    <string name="manual_log_not_latest">Impossible: the new log must be later than all existing logs</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
