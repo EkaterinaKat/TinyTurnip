@@ -27,6 +27,10 @@
     <color name="log_tile_text">#FF22211F</color>
     <color name="log_tile_text_secondary">#FF5A5752</color>
 
+    <!-- Date on the Charts screen, as in KOM: accent for today, plain text for other days -->
+    <color name="charts_date_today">#FFD81B60</color>
+    <color name="charts_date_default">@color/black</color>
+
     <!-- Stop button: muted dark red while an act is running, grey otherwise -->
     <color name="stop_button_active">#FFA32B2B</color>
     <color name="stop_button_idle">#FF9E9E9E</color>

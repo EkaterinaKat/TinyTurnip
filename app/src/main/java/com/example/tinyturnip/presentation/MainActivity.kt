@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.tinyturnip.R
 import com.example.tinyturnip.presentation.acts.ActsFragment
+import com.example.tinyturnip.presentation.charts.ChartsFragment
 import com.example.tinyturnip.presentation.home.HomeFragment
 import com.example.tinyturnip.presentation.logs.LogsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> showFragment(HomeFragment())
                 R.id.nav_acts -> showFragment(ActsFragment())
                 R.id.nav_logs -> showFragment(LogsFragment())
+                R.id.nav_charts -> showFragment(ChartsFragment())
                 else -> return@setOnItemSelectedListener false
             }
             true

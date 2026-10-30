@@ -15,6 +15,7 @@
         <activity
             android:name=".presentation.MainActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +26,8 @@
         <activity
             android:name=".presentation.logs.ManualLogActivity"
             android:exported="false"
-            android:parentActivityName=".presentation.MainActivity" />
+            android:parentActivityName=".presentation.MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
